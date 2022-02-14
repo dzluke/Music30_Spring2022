@@ -105,7 +105,7 @@ class Chain:
             new.p.popleft()
             new.p.append(word)
         
-        nx.drawing.nx_agraph.write_dot(graph, 'markov.dot')
+        # nx.drawing.nx_agraph.write_dot(graph, 'markov.dot')
         return chain
     
     def randomWord(self, state, word=None):
